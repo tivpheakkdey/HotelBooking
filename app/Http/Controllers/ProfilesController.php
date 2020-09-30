@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\User;
 use Illuminate\Http\Request;
 
-class UsersController extends Controller
+class ProfilesController extends Controller
 {
     public function __construct()
     {
@@ -14,6 +14,7 @@ class UsersController extends Controller
 
     public function index(User $user)
     {
-        return view('user.index', compact('user'));
+        $this->authorize('view',$user->profile);
+        return view('profile.index', compact('user'));
     }
 }
