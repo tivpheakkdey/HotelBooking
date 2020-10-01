@@ -12,6 +12,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(RoomsTableSeeder::class);
+<<<<<<< HEAD
         $this->call(UsersTableSeeder::class);
+=======
+>>>>>>> 38604ce2618ce4930ec72bb498f56f84c6827d00
     }
 }
