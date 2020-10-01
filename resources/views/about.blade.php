@@ -92,7 +92,7 @@
                     Pacific Ocean tropical
                     paradise leaves little to be
                     desired</p><br>
-                   
+
                 </div>
                 <div class="row mb_30">
 
@@ -111,10 +111,10 @@
             </div>
         </section>
 
-        
+
         <!--================ Facilities Area  =================-->
         <section class="facilities_area section_gap">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">  
+            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
             </div>
 
 
@@ -166,5 +166,5 @@
                 </div>
             </div>
         </section>
-        
+
 @endsection
