@@ -57,11 +57,11 @@
                         </ul>
                     </div>
                 </nav>
-              <!--Navigation Menu Ends-->     
+              <!--Navigation Menu Ends-->
                 <br/>
-                <br/> 
                 <br/>
-                <br/>     
+                <br/>
+                <br/>
                 </div>
                 <div class="container">
 					<div class="banner_content text-center">
@@ -89,7 +89,7 @@
                                                         <input type='text' class="form-control" id="arrivalDate" placeholder="Arrival Date"/>
                                                         <span class="input-group-addon">
                                                             <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>                                                        
+                                                        </span>
                                                     </div>
                                                     <small id="date1_error" class="form-text text-muted"></small>
                                                 </div>
@@ -98,7 +98,7 @@
                                                         <input type='text' class="form-control" id="depDate" placeholder="Departure Date"/>
                                                         <span class="input-group-addon">
                                                             <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>                                                       
+                                                        </span>
                                                     </div>
                                                     <small id="date2_error" class="form-text text-muted"></small>
                                                 </div>
@@ -147,7 +147,7 @@
                                                         <option selected value="0">No Of Rooms</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
-                                                        <option value="3">3</option>                                                        
+                                                        <option value="3">3</option>
                                                     </select>
                                                 </div>
                                                 <small id="room_error" class="form-text text-muted"></small>
@@ -180,7 +180,7 @@
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
                                 <img src="images/room1.jpg" alt="">
-                                <a href="rooms.html" class="btn theme_btn button_hover">View Info</a>
+                                <a href="room/1" class="btn theme_btn button_hover">View Info</a>
                             </div>
                             <a href="#"><h4 class="sec_h4">Double Deluxe Room</h4></a>
                             <h5>$250<small>/night</small></h5>
@@ -190,7 +190,7 @@
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
                                 <img src="images/room2.jpg" alt="">
-                                <a href="rooms.html" class="btn theme_btn button_hover">View Info</a>
+                                <a href="room/2" class="btn theme_btn button_hover">View Info</a>
                             </div>
                             <a href="#"><h4 class="sec_h4">Single Deluxe Room</h4></a>
                             <h5>$200<small>/night</small></h5>
@@ -200,7 +200,7 @@
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
                                 <img src="images/room3.jpg" alt="">
-                                <a href="rooms.html" class="btn theme_btn button_hover">View Info</a>
+                                <a href="room/3" class="btn theme_btn button_hover">View Info</a>
                             </div>
                             <a href="#"><h4 class="sec_h4">Honeymoon Suit</h4></a>
                             <h5>$750<small>/night</small></h5>
@@ -210,7 +210,7 @@
                         <div class="accomodation_item text-center">
                             <div class="hotel_img">
                                 <img src="images/room4.jpg" alt="">
-                                <a href="rooms.html" class="btn theme_btn button_hover">View Info</a>
+                                <a href="room/4" class="btn theme_btn button_hover">View Info</a>
                             </div>
                             <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
                             <h5>$200<small>/night</small></h5>
@@ -220,10 +220,10 @@
             </div>
         </section>
         <!--================ Accomodation Area  =================-->
-        
+
         <!--================ Facilities Area  =================-->
         <section class="facilities_area section_gap">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">  
+            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
             </div>
             <div class="container">
                 <div class="section_title text-center">
@@ -290,30 +290,16 @@
             </div>
         </section>
         <!--================ About History Area  =================-->
-        
+
         <!--================ Testimonial Area  =================-->
         <section class="testimonial_area section_gap" style="padding-top: 10px;">
             <br/>
             <br/>
             <div class="container">
                 <div class="section_title text-center">
-                    <h2 class="title_color">Testimonial from our Clients</h2>                
+                    <h2 class="title_color">Testimonial from our Clients</h2>
                 </div>
                 <div class="testimonial_slider owl-carousel">
-                    <div class="media testimonial_item">
-                        <img class="rounded-circle" src="images/testtimonial-1.jpg" alt="">
-                        <div class="media-body">
-                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
-                            <div class="star">
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star"></i></a>
-                                <a href="#"><i class="fa fa-star-half-o"></i></a>
-                            </div>
-                        </div>
-                    </div>    
                     <div class="media testimonial_item">
                         <img class="rounded-circle" src="images/testtimonial-1.jpg" alt="">
                         <div class="media-body">
@@ -341,7 +327,7 @@
                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                     <div class="media testimonial_item">
                         <img class="rounded-circle" src="images/testtimonial-1.jpg" alt="">
                         <div class="media-body">
@@ -355,16 +341,30 @@
                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                             </div>
                         </div>
-                    </div>                    
-                </div>  
+                    </div>
+                    <div class="media testimonial_item">
+                        <img class="rounded-circle" src="images/testtimonial-1.jpg" alt="">
+                        <div class="media-body">
+                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="banner_content text-center" style="margin-top: -25px; margin-bottom: 80px;">
                     <a href="testimonials.html" class="btn theme_btn button_hover">View More</a>
-                </div>                            
-            </div>            
+                </div>
+            </div>
         </section>
         <!--================ Testimonial Area  =================-->
-        
-        <!--================ start footer Area  =================-->	
+
+        <!--================ start footer Area  =================-->
         <footer class="footer-area section_gap">
             <div class="container">
                 <div class="row">
@@ -390,7 +390,7 @@
                                     <ul class="list_style">
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="accomodation.html">Rooms</a></li>                                       
+                                        <li><a href="accomodation.html">Rooms</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-4">
@@ -399,20 +399,20 @@
                                         <li><a href="contact.html">Contact</a></li>
                                         <li><a href="reviews.html">Reviews</a></li>
                                     </ul>
-                                </div>										
-                            </div>							
+                                </div>
+                            </div>
                         </div>
-                    </div>							
+                    </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h6 class="footer_title">Newsletter</h6>
-                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>		
+                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>
                             <div id="mc_embed_signup">
                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                                     <div class="input-group d-flex flex-row">
                                         <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                        <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>		
-                                    </div>									
+                                        <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>
+                                    </div>
                                     <div class="mt-10 info"></div>
                                 </form>
                             </div>
@@ -432,7 +432,7 @@
                                 <li><img src="images/instagram/Image-08.jpg" alt=""></li>
                             </ul>
                         </div>
-                    </div>						
+                    </div>
                 </div>
                 <div class="border_line"></div>
                 <div class="row footer-bottom d-flex justify-content-between align-items-center">
@@ -447,8 +447,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 </div>
             </div>
         </footer>
-		<!--================ End footer Area  =================-->                        
-        
+		<!--================ End footer Area  =================-->
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.2.1.min.js"></script>
