@@ -51,6 +51,10 @@
                     </div>
                 @endauth
 
+                @guest
+                    <div>Please signin to book</div>
+                @endguest
+
 
             </div>
         </div>
