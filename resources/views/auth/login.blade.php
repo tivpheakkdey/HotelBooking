@@ -1,6 +1,11 @@
+<!DOCTYPE html>
 @extends('layouts.app')
 
 @section('content')
+<link href="{{ asset('css/login.css') }}" rel="stylesheet">
+<body style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{ asset('storage/BG.jpg')}}');">
+<!--<body style="background-image: url('{{ asset('storage/BG.jpg')}}');">-->
+<!--<div class="backgroundImage" style="background-image: url('{{ asset('storage/BG.jpg')}}');">-->
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -70,4 +75,7 @@
         </div>
     </div>
 </div>
+<!--</div>-->
 @endsection
+</body>
+</html>

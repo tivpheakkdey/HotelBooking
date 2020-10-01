@@ -10,7 +10,6 @@
                 <div class="card-body">
                     @foreach ($user->bookings as $booking)
                         <div>{{$booking->description}}</div>
-
                     @endforeach
                 </div>
             </div>
