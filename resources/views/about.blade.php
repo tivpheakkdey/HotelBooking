@@ -119,9 +119,13 @@
         </section>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 44d9250... added booking route, controller
+=======
+
+>>>>>>> 44d92500d082e5a91f8b968ac1dce1ce380fda83
         <!--================ Facilities Area  =================-->
         <section class="facilities_area section_gap">
             <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
@@ -172,9 +176,12 @@
             </div>
         </section>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!--================ Facilities Area  =================-->
 =======
 >>>>>>> 44d9250... added booking route, controller
+=======
+>>>>>>> 44d92500d082e5a91f8b968ac1dce1ce380fda83
 
 @endsection
 
