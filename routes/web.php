@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/profile/{user}', 'ProfilesController@index')->name('user.index');
+
+Route::get('/about', function () {return view('about');});
