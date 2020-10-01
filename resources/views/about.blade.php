@@ -24,18 +24,18 @@
 </head>
 
     <body>
-            
+
             <!--================Banner Area =================-->
 
         <section class="banner_area">
             <div class="booking_table" style="min-height: 400px;">
                 <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
                 <div class="col-md-12">
-                    
+
                 <br/>
-                <br/> 
                 <br/>
-                <br/>     
+                <br/>
+                <br/>
                 </div>
                 <div class="container">
                 <div class="page-cover text-center">
@@ -118,14 +118,6 @@
             </div>
         </section>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 44d9250... added booking route, controller
-=======
-
->>>>>>> 44d92500d082e5a91f8b968ac1dce1ce380fda83
         <!--================ Facilities Area  =================-->
         <section class="facilities_area section_gap">
             <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
@@ -175,13 +167,7 @@
                 </div>
             </div>
         </section>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <!--================ Facilities Area  =================-->
-=======
->>>>>>> 44d9250... added booking route, controller
-=======
->>>>>>> 44d92500d082e5a91f8b968ac1dce1ce380fda83
 
 @endsection
 
