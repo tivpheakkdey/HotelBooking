@@ -12,9 +12,11 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(RoomsTableSeeder::class);
-<<<<<<< HEAD
         $this->call(UsersTableSeeder::class);
+<<<<<<< HEAD
 =======
 >>>>>>> fda8c1e... Created seeder for room
+=======
+>>>>>>> f42dab3... implement the room controller, route, and view
     }
 }
