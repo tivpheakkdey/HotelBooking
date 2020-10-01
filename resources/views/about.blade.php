@@ -99,7 +99,7 @@
                     Pacific Ocean tropical
                     paradise leaves little to be
                     desired</p><br>
-                   
+
                 </div>
                 <div class="row mb_30">
 
@@ -118,9 +118,17 @@
             </div>
         </section>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44d9250... added booking route, controller
+=======
+
+>>>>>>> 44d92500d082e5a91f8b968ac1dce1ce380fda83
         <!--================ Facilities Area  =================-->
         <section class="facilities_area section_gap">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">  
+            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
             </div>
             <div class="container">
                 <div class="section_title text-center">
@@ -167,7 +175,13 @@
                 </div>
             </div>
         </section>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <!--================ Facilities Area  =================-->
+=======
+>>>>>>> 44d9250... added booking route, controller
+=======
+>>>>>>> 44d92500d082e5a91f8b968ac1dce1ce380fda83
 
 @endsection
 
