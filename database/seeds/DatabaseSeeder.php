@@ -12,6 +12,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(RoomsTableSeeder::class);
+<<<<<<< HEAD
         $this->call(UsersTableSeeder::class);
+=======
+>>>>>>> fda8c1e... Created seeder for room
     }
 }
