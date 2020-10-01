@@ -1,47 +1,54 @@
+<!DOCTYPE html>
+
 @extends('layouts.app')
 
 @section('content')
-<!--
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">About Us</div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-       </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
 <head>
-        <!-- Required meta tags -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<link rel="icon" href="images/favicon.png" type="images/png">-->
+    <!--<title>Paradise With a View</title>-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/linericon/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/owl-carousel/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/nice-select/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/owl-carousel/owl.carousel.min.css') }}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+</head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="image/favicon.png" type="image/png">
-        <title>Paradise With A View</title>
+    <body>
+            
+            <!--================Banner Area =================-->
 
+        <section class="banner_area">
+            <div class="booking_table" style="min-height: 400px;">
+                <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+                <div class="col-md-12">
+                    
+                <br/>
+                <br/> 
+                <br/>
+                <br/>     
+                </div>
+                <div class="container">
+                <div class="page-cover text-center">
+                    <h2 class="page-cover-tittle">About Us</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">About</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-
-
+        <!--================Breadcrumb Area =================-->
         <section class="accomodation_area section_gap">
             <div class="container">
                 <div class="section_title text-center">
@@ -111,60 +118,58 @@
             </div>
         </section>
 
-        
         <!--================ Facilities Area  =================-->
         <section class="facilities_area section_gap">
             <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">  
             </div>
-
-
             <div class="container">
                 <div class="section_title text-center">
-                    <h2 class="title_w"><a href="#">Facilities</a></h2>
-                    <p>Hotel awaits to provide and serve you with the best</p>
+                    <h2 class="title_w">Royal Facilities</h2>
+                    <p>Who are in extremely love with eco friendly system.</p>
                 </div>
                 <div class="row mb_30">
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-dinner"></i><a href="#">Restaurant</a></h4>
-                            <p>We provide the best Waikiki traditional menus and any food as prefered</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-dinner"></i>Restaurant</h4>
+                            <p>We have world class Resturant in our Hotel with experienced cheffs. You can enjoy veg & non-ver meals.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i><a href="#">Sports Club</a></h4>
-                            <p>Join our outdoor and water sports club to get the best out of your vacation </p>
+                            <h4 class="sec_h4"><i class="lnr lnr-bicycle"></i>Sports Area</h4>
+                            <p>We have seperate sports area for your sports activities and for your children leausure. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-shirt"></i><a href="#">Swimming Pool</a></h4>
-                            <p>Enjoy our Roof Top
-                                Ocean View Pool and
-                                Jacuzzi In Waikik</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-shirt"></i>Swimming Pool</h4>
+                            <p>There is very tiny swimming pool at our Restaurant for your. Its surronded by a nature environment.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-car"></i><a href="#">Rent a Car</a></h4>
-                            <p> VIP Car Rentals is one
-                                block away, turn right on Kuhio</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-car"></i>Rent a Car</h4>
+                            <p>You can rent a car from us with Driver or Withour Driver. We provides for you with an incredible offer.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-construction"></i><a href="#">Gymnesium</a></h4>
-                            <p>Enjoy are fully equiped gym with a full view of the mountains and the beach</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-construction"></i>Gymnesium</h4>
+                            <p>We have a great gymnesium with lots of equipments. You can do your fitness activites at anytime.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-coffee-cup"></i><a href="#">Spa</a></h4>
-                            <p>Enjoy the free spa facilities provided to all our guests.</p>
+                            <h4 class="sec_h4"><i class="lnr lnr-coffee-cup"></i>Bar</h4>
+                            <p>For make you more happy we have mini bar inside our Resturant. You can enjoy your parties here.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+        <!--================ Facilities Area  =================-->
+
 @endsection
+
+</body>
+</html>

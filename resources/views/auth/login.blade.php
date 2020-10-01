@@ -1,8 +1,29 @@
 <!DOCTYPE html>
+
 @extends('layouts.app')
 
 @section('content')
-<link href="{{ asset('css/login.css') }}" rel="stylesheet">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<link rel="icon" href="images/favicon.png" type="images/png">-->
+    <!--<title>Paradise With a View</title>-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/linericon/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/owl-carousel/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/nice-select/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendors/owl-carousel/owl.carousel.min.css') }}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link href="{{ asset('css/login.css') }}" rel="stylesheet">
+</head>
+
 <body class="responsive">
 <div class="container">
     <div class="row justify-content-center">
