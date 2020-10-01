@@ -3,9 +3,7 @@
 
 @section('content')
 <link href="{{ asset('css/login.css') }}" rel="stylesheet">
-<body style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{ asset('images/BG.jpg')}}');">
-<!--<body style="background-image: url('{{ asset('storage/BG.jpg')}}');">-->
-<!--<div class="backgroundImage" style="background-image: url('{{ asset('storage/BG.jpg')}}');">-->
+<body class="responsive">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

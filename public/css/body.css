@@ -1,0 +1,28 @@
+.responsive{
+  width: 100%;
+  height: auto;
+  background: url("../images/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+p.titleText{
+  color: white;
+  font-size: 90%;
+  font-style: initial;
+}
+
+h2.title{
+  color: white;
+  font-size: 300%;
+  font-family: "Arial Black", Times, serif;
+  font-weight: bolder;
+}
+
+h6.titleText{
+  color: white;
+  font-size: 125%;
+  font-family: "Arial Black", Times, serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
