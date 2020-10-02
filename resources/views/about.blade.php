@@ -41,7 +41,7 @@
                 <div class="page-cover text-center">
                     <h2 class="page-cover-tittle">About Us</h2>
                     <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="active">About</li>
                     </ol>
                 </div>
