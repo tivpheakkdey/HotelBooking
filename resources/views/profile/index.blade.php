@@ -9,7 +9,14 @@
 
                 <div class="card-body">
                     @foreach ($user->bookings as $booking)
-                        <div>{{$booking->description}}</div>
+                        <div>
+                            <div>Booking date: {{$booking->created_at}}</div>
+                            <div>Arrival date: {{$booking->arrival_date}}</div>
+                            <div>Departure date: {{$booking->departure_date}}</div>
+                            <div>Room:{{$booking->room->title}}</div>
+                            <div>no. of room: {{$booking->num_room}}</div>
+                            <div>Total price: ${{$booking->amount}}</div>
+                        </div>
                     @endforeach
                 </div>
             </div>
