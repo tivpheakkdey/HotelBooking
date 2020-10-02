@@ -37,3 +37,48 @@ img{
 .details{
   font-weight: bold;
 }
+
+.bookingDetails{
+  margin-left:auto; 
+  margin-right:50px;
+}
+
+.signinAlert{
+  margin-left:auto; 
+  margin-right:50px;
+  background-color: #ffd100;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Arial Black", Times, serif;
+}
+
+.signinAlert:hover{
+  background-color: #ffbc00;
+}
+
+.submitBtn{
+  background-color: #ffd100;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Arial Black", Times, serif;
+}
+
+.submitBtn:hover{
+  background-color: #ffbc00;
+}
