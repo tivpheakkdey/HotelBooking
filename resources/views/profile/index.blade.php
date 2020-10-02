@@ -20,41 +20,53 @@
     <!-- main css -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 </head>
 <body>
 <!--================Banner Area =================-->
-    <section class="banner_area">
-            <div class="booking_table">
-                <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
-                    data-background="">
-                </div>
-
-                <div class="col-md-12"><br/><br/></div>
-
-                <div class="container">
-                    <div class="banner_content text-center">
-                        <h6>Welcome to</h6>
-                        <h2>Profile Page</h2>
-                    </div>
-                </div>
-            </div>
 
             <section class="facilities_area section_gap">
                 <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div>
-                @foreach ($user->bookings as $booking)
+                
                 <div class="container">
+                    <div class="banner_content text-center">
+                        <h3>Booking details: </h3>
+                    </div>
+                </div>
+
+                <div class="container2">
                     <div class="col-lg-4 col-md-6">
-                            <div class="facilities_item">
-                                <div>Booking date: {{$booking->created_at}}</div>
-                                <div>Arrival date: {{$booking->arrival_date}}</div>
-                                <div>Departure date: {{$booking->departure_date}}</div>
-                                <div>Room:{{$booking->room->title}}</div>
-                                <div>no. of room: {{$booking->num_room}}</div>
-                                <div>Total price: ${{$booking->amount}}</div>
-                            </div>
+                            <!--<div class="facilities_item">-->
+                                <table id="bookinDetailsTB">
+                                    <tr class="rows">
+                                        <th class="titleCell">>Booking date: </th>
+                                        <th class="titleCell">Arrival date: </th>
+                                        <th class="titleCell">Departure date: </th>
+                                        <th class="titleCell">Room: </th>
+                                        <th class="titleCell">no. of room: </th>
+                                        <th class="titleCell">Total price: </th>
+                                    </tr>
+                                    @foreach ($user->bookings as $booking)
+                                    <tr class="rows">>
+                                        <td class="cell">{{$booking->created_at}}</td>
+                                        <td class="cell">{{$booking->arrival_date}}</td>
+                                        <td class="cell">{{$booking->departure_date}}</td>
+                                        <td class="cell">{{$booking->room->title}}</td>
+                                        <td class="cell">{{$booking->num_room}}</td>
+                                        <td class="cell">${{$booking->amount}}</td>
+                                    </tr>
+                                    @endforeach
+                                </table>
+                            <!--</div>-->
+                            </br>
+                            </br>
+                            </br>
+                            </br>
+                            </br>
+                            </br>
+                            </br>
                         </div>
                     </div>
-                @endforeach
             </section>
 
     </section>
