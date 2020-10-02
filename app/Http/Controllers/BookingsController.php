@@ -18,10 +18,19 @@ class BookingsController extends Controller
             'amount' => ['numeric'],
         ]);
 
-        $price = Room::find(request('room_id'))->price;
-        $total_price = $price * request('num_room');
 
-        dd(array_merge($data,['amount'=>$total_price]));
-        // auth()->user()->bookings()->create($data);
+        $date1 = strtotime($data['arrival_date']);
+        $date2 = strtotime($data['departure_date']);
+        $diff = abs($date2 - $date1);
+
+        $years = floor($diff / (365*60*60*24));
+        $months = floor(($diff - $years * 365*60*60*24) / (30*60*60*24));
+        $days = floor(($diff - $years * 365*60*60*24 -$months*30*60*60*24)/ (60*60*24));
+
+        $price = Room::find($data['room_id'])->price;
+        $total_price = $price * $data['num_room'] * $days;
+
+        //dd(array_merge($data,['amount'=>$total_price]));
+        auth()->user()->bookings()->create(array_merge($data,['amount'=>$total_price]));
     }
 }
