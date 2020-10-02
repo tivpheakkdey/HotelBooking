@@ -30,7 +30,8 @@ class BookingsController extends Controller
         $price = Room::find($data['room_id'])->price;
         $total_price = $price * $data['num_room'] * $days;
 
-        //dd(array_merge($data,['amount'=>$total_price]));
         auth()->user()->bookings()->create(array_merge($data,['amount'=>$total_price]));
+
+        return redirect('/profile/'.auth()->user()->id);
     }
 }
