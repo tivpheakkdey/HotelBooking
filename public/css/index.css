@@ -1,0 +1,36 @@
+.bookinDetailsTB{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cell{
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+
+.titleCell{
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.rows{
+  background-color: #f2f2f2;
+}
+
+.rows:hover{
+  background-color: #ddd;
+}
+
+.titleCell{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.container2{
+  margin-left: 30%;
+}
+
