@@ -1,0 +1,39 @@
+.card{
+  width: 800px;
+  margin-left: 22%;
+
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.price{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bookingBtn{
+  float: right;
+  background-color: #ffd100;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Arial Black", Times, serif;
+}
+
+.bookingBtn:hover{
+  background-color: #ffbc00;
+}
+
+.details{
+  font-weight: bold;
+}
