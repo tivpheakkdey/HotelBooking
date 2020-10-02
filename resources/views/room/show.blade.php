@@ -52,26 +52,17 @@
                                         <div class="price" style="display:inline;">Price: ${{$room->price}}</div>
                                         <!--<button class="bookingBtn">Book now!</button>-->
                                     </div>
-                                </div>
-                            </div>
-                        <!--</div>-->
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                    </div>
-
-                @auth
-                    <div>
+                                    
+                                    @auth
+                    <div class="bookingDetails">
+                        
                         <form method="POST" action="/booking">
                             @csrf
+                            
                             <input type="hidden" id="room_id" name="room_id" value="{{$room->id}}"><br><br>
 
                             <div>
+                                <h6>Book Now!</h6>
                                 <label for="arrival_date">Arrival Date:</label><br>
                                 <input type="date" id="arrival_date" name="arrival_date"><br><br>
 
@@ -99,16 +90,35 @@
                                 @enderror
                             </div>
 
-                            <input type="submit" value="Submit">
+                            <input class="submitBtn" type="submit" value="Submit">
                         </form>
                     </div>
                 @endauth
 
                 @guest
-                    <div>Please signin to book</div>
+                    <a href="{{ route('login') }}" class="signinAlert">Please signin to book</a>
                 @endguest
 
+                <br/>
+                        <br/>
+                        <br/>
+                        <br/>
             </div>
+                                </div>
+                                
+                            </div>
+                        <!--</div>-->
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </div>
+
+                
             <br/>
             <br/>
             <br/>
