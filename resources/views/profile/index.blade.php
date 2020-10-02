@@ -21,94 +21,47 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 </head>
-<body> 
-          <!--================Banner Area =================-->
-      <!--================Banner Area =================-->
-<section class="banner_area">
-        <div class="booking_table">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
-                data-background=""></div>
-            <div class="col-md-12">
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+<body>
+<!--================Banner Area =================-->
+    <section class="banner_area">
+            <div class="booking_table">
+                <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
+                    data-background="">
                 </div>
+
+                <div class="col-md-12"><br/><br/></div>
+
                 <div class="container">
-					<div class="banner_content text-center">
-						<h6>Welcome to</h6>
-						<h2>Profile Page</h2>
-					</div>
-				</div>
-            </div>
-    
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            
-               
-                    @foreach ($user->bookings as $booking)
-                        <div class="facilities_item">
-                            <div>Booking date: {{$booking->created_at}}</div>
-                            <div>Arrival date: {{$booking->arrival_date}}</div>
-                            <div>Departure date: {{$booking->departure_date}}</div>
-                            <div>Room:{{$booking->room->title}}</div>
-                            <div>no. of room: {{$booking->num_room}}</div>
-                            <div>Total price: ${{$booking->amount}}</div>
-                        </div> 
-            </div>
-                    @endforeach
-         
-    </div>
-</div>
-          </section>
-<section class="facilities_area section_gap">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
-            </div>
-            <div class="container">
-                <div class="section_title text-center">
-                    <h2 class="title_w">Bookings</h2>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-bed"></i>Booking 1</h4>
-                            <div>Booking date: {{$booking->created_at}}</div>
-                            <div>Arrival date: {{$booking->arrival_date}}</div>
-                            <div>Departure date: {{$booking->departure_date}}</div>
-                            <div>Room:{{$booking->room->title}}</div>
-                            <div>no. of room: {{$booking->num_room}}</div>
-                            <div>Total price: ${{$booking->amount}}</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-bed"></i>Booking 2</h4>
-                            <div>Booking date: {{$booking->created_at}}</div>
-                            <div>Arrival date: {{$booking->arrival_date}}</div>
-                            <div>Departure date: {{$booking->departure_date}}</div>
-                            <div>Room:{{$booking->room->title}}</div>
-                            <div>no. of room: {{$booking->num_room}}</div>
-                            <div>Total price: ${{$booking->amount}}</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="facilities_item">
-                            <h4 class="sec_h4"><i class="lnr lnr-bed"></i>Booking 3</h4>
-                           <div>Booking date: {{$booking->created_at}}</div>
-                            <div>Arrival date: {{$booking->arrival_date}}</div>
-                            <div>Departure date: {{$booking->departure_date}}</div>
-                            <div>Room:{{$booking->room->title}}</div>
-                            <div>no. of room: {{$booking->num_room}}</div>
-                            <div>Total price: ${{$booking->amount}}</div>
-                        </div>
+                    <div class="banner_content text-center">
+                        <h6>Welcome to</h6>
+                        <h2>Profile Page</h2>
                     </div>
                 </div>
-            
-        </section>
+            </div>
+
+            <section class="facilities_area section_gap">
+                <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div>
+                @foreach ($user->bookings as $booking)
+                <div class="container">
+                    <div class="col-lg-4 col-md-6">
+                            <div class="facilities_item">
+                                <div>Booking date: {{$booking->created_at}}</div>
+                                <div>Arrival date: {{$booking->arrival_date}}</div>
+                                <div>Departure date: {{$booking->departure_date}}</div>
+                                <div>Room:{{$booking->room->title}}</div>
+                                <div>no. of room: {{$booking->num_room}}</div>
+                                <div>Total price: ${{$booking->amount}}</div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </section>
+
+    </section>
 </body>
 @endsection
 
-</html> 
+</html>
 
 
 
